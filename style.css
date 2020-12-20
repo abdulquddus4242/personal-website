@@ -13,6 +13,7 @@ body{
 }
 .half-width img{
     width: 100%;
+    
 }
 
 .first-banner{
@@ -20,7 +21,11 @@ body{
     background-repeat: no-repeat;
     height: 500px;
     padding-top: 50px;
+    overflow: hidden;
     
+}
+section{
+    height: 500px;
 }
 
 a{
@@ -31,18 +36,37 @@ a{
     color: white;
     font-weight: 700;
 }
-.work-area{
+.work-sitebar{
+    text-align: center;
     
-   
-    
-}
-.third-width img{
-    width: 20%;
-    float: left;
-    margin-left: 10%;
-    padding-left: 0;
+    color: violet;
 }
 
+ .work-area{
+    /* background-image: url("images/latest-work-bg.png"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* overflow: hidden;
+    width:500px ;
+    /* float: left; */
+     */
+}
+.work-img{
+    width: 400px;
+    /* height: 400px; */
+    margin:auto;
+    float: left;
+    
+}
+ .work-area img {
+    height: 350px;
+    overflow: hidden;
+    clear: both;
+    text-align: center;
+    margin: auto;
+   
+}
+ 
 
 
 
