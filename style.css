@@ -39,7 +39,7 @@ a{
 .work-sitebar{
     text-align: center;
     
-    color: violet;
+    color: purple;
 }
 
  .work-area{
@@ -52,10 +52,11 @@ a{
      
 }
 .work-img{
-    width: 400px;
+    width: 370px;
     /* height: 400px; */
-    margin:auto;
+    margin-left: 10px;
     float: left;
+    
     
 }
  .work-area img {
@@ -68,10 +69,12 @@ a{
 }
 #footer{
     background-image: url("images/footer-bg.png");
+    overflow: hidden;
 }
 .footer-1{
-    color: violet;
+    color: purple;
     text-align: center;
+    
 }
 
 .footer-2{
